@@ -22,6 +22,11 @@ public class CamCtrl : MonoBehaviour
         tx2d_texture.Apply();
     }
 
+    private void GetSize()
+    {
+        //half width = (cam.orthographicSize * Screen.width / Screen.height);
+    }
+
     [RuntimeInitializeOnLoadMethod]
     public void DoFade(float length)
     {
